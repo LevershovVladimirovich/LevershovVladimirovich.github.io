@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300;400;500;700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+:root{
+    color-scheme: dark;
+}
+.block1{
+    width: 100vw;
+    height: 100vh;
+    background: url(https://kartinkin.net/uploads/posts/2021-07/1625811608_16-kartinkin-com-p-parad-planet-oboi-krasivie-18.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+a{
+    padding: 0 30 0 30px;
+    margin: 30px 0 30px 0;
+}
